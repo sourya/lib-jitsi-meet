@@ -1,6 +1,9 @@
 version = 1
 
-exclude_patterns = ["node_modules/**"]
+exclude_patterns = [
+    ".github/**",
+    "flow-typed/**"
+]
 
 [[analyzers]]
 name = "javascript"
